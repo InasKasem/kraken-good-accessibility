@@ -21,17 +21,16 @@ body {
 img {
   display: block;
   width: 100%;
-  background-color: #259f95;
 }
 
 header {
+  background-color: #1e7c74;
   background-image: url("../images/anchors.svg");
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
-  background-color: #1e7c74;
 }
 
 header strong,
@@ -58,16 +57,11 @@ article header {
   color: #fff;
 }
 
-.chapter {
+h1 {
   margin: 0;
   color: #fff;
   font-weight: normal;
   font-size: 1.125rem;
-}
-
-.h1-div {
-  padding: 0;
-  margin: 0;
 }
 
 h2 {
@@ -93,7 +87,7 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -126,16 +120,11 @@ article p {
   text-indent: 1.3em;
 }
 
-.kraken-intro {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.kraken-intro :first-child {
+article div :first-child {
   text-indent: 0;
 }
 
-.kraken-intro :first-child::first-line {
+article div :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
