@@ -21,6 +21,7 @@ body {
 img {
   display: block;
   width: 100%;
+   background-color: #259f95;
 }
 
 header {
@@ -30,6 +31,7 @@ header {
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
+  background-color: #1e7c74;
 }
 
 header strong,
@@ -56,11 +58,16 @@ article header {
   color: #fff;
 }
 
-h1 {
+.chapter {
   margin: 0;
   color: #fff;
   font-weight: normal;
   font-size: 1.125rem;
+}
+
+.h1-div {
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
@@ -119,11 +126,16 @@ article p {
   text-indent: 1.3em;
 }
 
-article div :first-child {
+.kraken-intro {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.kraken-intro :first-child {
   text-indent: 0;
 }
 
-article div :first-child::first-line {
+.kraken-intro :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
@@ -157,4 +169,5 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
+  background-color: #1e7c74;
 }
